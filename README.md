@@ -6,7 +6,7 @@
 Use in these ways :
 
 ```php
-composer require sabanovin/php
+composer require karakoweb/php
 ```
 
 Usage
@@ -18,7 +18,7 @@ Send Simple SMS by SabaNovin API:
 require __DIR__ . '/vendor/autoload.php';
 
 try{
-	$api = new \SabaNovin\SabaNovinApi( "API-Key" );
+	$api = new \KarakoWeb\KarakoWebApi( "API-Key" );
 	$gateway = "100020500";
 	$text = "متن تست";
 	$to = array("09370000000", "09120000000");
