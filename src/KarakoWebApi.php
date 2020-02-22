@@ -1,15 +1,15 @@
 <?php
 
-namespace SabaNovin;
+namespace KarakoWeb;
 
 use SabaNovin\Exceptions\ApiException;
 use SabaNovin\Exceptions\HttpException;
 use SabaNovin\Exceptions\RuntimeException;
 
-class SabaNovinApi
+class KarakoWebApi
 {
     protected $apiKey;
-    const API_URL = "https://api.sabanovin.com/v1/%s/%s/%s.json/";
+    const API_URL = "http://api.renooj.ir/v1/%s/%s/%s.json/";
     const VERSION = "1.0";
     public function __construct($apiKey)
     {
