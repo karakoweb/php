@@ -1,5 +1,5 @@
 {
-    "name": "sabanovin/php",
+    "name": "karakoweb/php",
     "type": "library",
     "description": "A PHP wrapper for SabaNovin's REST API",
     "keywords": ["sabanovin", "sms", "api"],
@@ -13,11 +13,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "sabanovin/php": "*"
+        "karakoweb/php": "*"
     },
     "autoload": {
         "psr-4": {
-            "SabaNovin\\": "src/"
+            "KarakoWeb\\": "src/"
         }
     },
     "minimum-stability" : "stable"
